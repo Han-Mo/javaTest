@@ -1,9 +1,0 @@
-
-[
-squid:S106"9Replace this use of System.out or System.err by a logger.(´‹¹öşÿÿÿÿ8À¶Í ‘-
-[
-squid:S106"9Replace this use of System.out or System.err by a logger.(ÀÏ°ıÿÿÿÿ8Ó Ñ ‘-
-osquid:UselessImportCheck"DRemove this unused import 'java.util.concurrent.ExecutionException'.(¡£ØÍ8áÎà ‘-
-V
-squid:S106"9Replace this use of System.out or System.err by a logger.(‚¨Ö§8Ó Ñ ‘-
-Fsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8í¶Ñ ‘-

@@ -1,21 +1,0 @@
-
-[squid:S1197%"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿ8ıÆÁ¡‘-
-psquid:S00117'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İºÄë8ıÆÁ¡‘-
-hsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¹›¹8ñ‘¢‘-
-V
-squid:S106"9Replace this use of System.out or System.err by a logger.(âßÔĞ8ıÆÁ¡‘-
-Hsquid:S001084")Either remove or fill this block of code.(”ı¾8ØÈ¸¢‘-
-V
-squid:S106"9Replace this use of System.out or System.err by a logger.(ª–±©8÷‘ÿ¡‘-
-nsquid:CommentedOutCodeLine."<This block of commented-out lines of code should be removed.(£‰üÓşÿÿÿÿ8¨¢‘-
-nsquid:CommentedOutCodeLine*"<This block of commented-out lines of code should be removed.(ˆàÈ³ùÿÿÿÿ8—¢‘-
-V
-squid:S106"9Replace this use of System.out or System.err by a logger.(…½··8ıÆÁ¡‘-
-gsquid:S1192'"IDefine a constant instead of duplicating this literal "Thread-1" 3 times.(İºÄë8ò®¢‘-
-U
-squid:S106"9Replace this use of System.out or System.err by a logger.(Ä³ÿh8ıÆÁ¡‘-
-[
-squid:S106"9Replace this use of System.out or System.err by a logger.(ŸôÖàüÿÿÿÿ8ã­†¢‘-
-V
-squid:S106"9Replace this use of System.out or System.err by a logger.(äÁôĞ8ıÆÁ¡‘-
-usquid:S00117-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“¨êùÿÿÿÿ8ıÆÁ¡‘-
