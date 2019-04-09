@@ -2,8 +2,8 @@
  * @author han
  * @Date 2019/3/4 下午4:50
  **/
-class ThreadDemo1 extends Thread{
-    private Integer trainCount = 10;
+class ThreadDemo1 implements Runnable{
+    private Integer trainCount = 100;
 
     @Override
     public void run(){
@@ -17,15 +17,15 @@ class ThreadDemo1 extends Thread{
         }
     }
 
-    public void sale()
+    public synchronized void sale()
     {
-        synchronized(trainCount){
+       // synchronized(trainCount){
             if(trainCount > 0){
-                System.out.println(Thread.currentThread().getName()+ ",出售 "+(10-trainCount+1)+" 张");
+                System.out.println(Thread.currentThread().getName()+ ",出售 "+(100-trainCount+1)+" 张");
                 trainCount--;
             }
 
-        }
+       // }
 
     }
 }

@@ -6,6 +6,7 @@
 
 class Thread1 extends Thread {
     public volatile boolean flag = true;
+    //public  boolean flag = true;
     @Override
     public void run(){
         System.out.println("start.....");
@@ -28,13 +29,13 @@ public class VolatileDemo {
         Thread1 a1 = new Thread1();
         a1.start();
 
-        Thread.sleep(1000L);
+        Thread.sleep(3000L);
 
-
+        System.out.println("update flag.....");
         a1.stopThread(false);
 
 
-        System.out.println("update flag.....");
+
 
         Thread.sleep(1000L);
         System.out.println(a1.flag);
