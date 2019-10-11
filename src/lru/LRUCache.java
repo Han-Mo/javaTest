@@ -66,7 +66,6 @@ public class LRUCache {
      * 删除节点
      * @param node 要删除的节点
      */
-
     private String removeNode(Node node){
         if(node == end){
         //移除尾节点
